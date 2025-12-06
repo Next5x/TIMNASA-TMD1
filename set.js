@@ -7,13 +7,13 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'zokk',
-    PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || " chugastan",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "255622286792",              
+module.exports = { session: process.env.SESSION_ID || '',
+    PREFIXE: process.env.PREFIX || ".",
+    OWNER_NAME: process.env.OWNER_NAME || "timoth timnasa",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "255784766591",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
-    BOT : process.env.BOT_NAME || 'MATELEE TMD',
+    BOT : process.env.BOT_NAME || 'TIMNASA_TMD1,
     URL : process.env.BOT_MENU_LINKS || 'ttps://files.catbox.moe/ejm45q.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
