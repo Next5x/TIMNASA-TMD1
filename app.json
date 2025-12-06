@@ -1,9 +1,9 @@
 {
-  "name":"𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃",
-  "description":"tryphonee",
+  "name":"TIMNASA_TMD1",
+  "description":"TIMNASA_TMD1 WHATSAPP MULTIPLE DIVAICE",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"ttps://files.catbox.moe/ejm45q.jpg",
-  "repository":"https://github.com/tryphonee/MTALEE-TMD1",
+  "repository":"https://github.com/Next5x/TIMNASA-TMD1",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"MATELE TMD",
+      "value":"TIMNASA_TMD1",
       "required":false
 
     } ,
@@ -55,6 +55,7 @@
 	,
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
+	"value":"",
      "required" :true
     },
   "HEROKU_APP_NAME": {
@@ -74,14 +75,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": " 𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃"
+    "value": "TIMNASA_TMD1"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255693629079"
+    "value": "255784766591"
   },
     "WARN_COUNT":
   {
